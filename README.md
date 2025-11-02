@@ -2,7 +2,7 @@
 
 ![the 32datasources web UI](image.png)
 
-32datasources is a Python service that continuously gathers data from your 32auctions listing, stores the latest snapshot in `auction_items.json`, and exposes a live control panel with manual overrides.
+32datasources is a Python service that continuously gathers data from your 32auctions listing, stores the latest snapshot in `auction_items.json`, and exposes a live control panel with manual overrides. This works in conjunction with the 32dashboards project, but can run standalone if you just need a JSON file.
 
 ## Features
 - Service that collects item metadata and total raised value on a configurable cadence.
