@@ -26,6 +26,20 @@
 
 Data is written to `auction_items.json` in the project root so other processes can consume it.
 
+## JSON Contents
+The JSON file contains:
+- Time of the last refresh
+- URL of the auction
+- Total number of items
+- Total amount raised
+- A list of all items, including:
+  - Item title
+  - Picture URL
+  - Price
+  - Remaining (if applicable, otherwise null)
+  - Value (if applicable, otherwise null)
+  - Number of bids (if applicable, otherwise null)
+
 ## Notes
 - A auth token is required to grab the total raised
 - Runs great in docker:
