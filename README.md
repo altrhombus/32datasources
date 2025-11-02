@@ -29,6 +29,7 @@ Data is written to `auction_items.json` in the project root so other processes c
 ## Notes
 - A auth token is required to grab the total raised
 - Runs great in docker:
-    ```docker build -t 32datasources .
+    ```bash
+    docker build -t 32datasources .
     docker run --rm -p 8081:8081 --name 32datasources 32datasources
     ```
